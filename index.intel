@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว - น้องปิ่นโต</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f7f4;
+            color: #2d3748;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            max-width: 450px;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid #4caf50;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4caf50, #81c784);
+            padding: 40px 20px;
+            color: white;
+        }
+
+        .avatar-placeholder {
+            width: 120px;
+            height: 120px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px 20px;
+        }
+
+        .info-box {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            background: #f9f9f9;
+            padding: 12px 15px;
+            border-radius: 10px;
+            border-left: 5px solid #4caf50;
+            text-align: left;
+        }
+
+        .info-label {
+            font-weight: bold;
+            width: 120px;
+            color: #388e3c;
+        }
+
+        .info-value {
+            flex: 1;
+        }
+
+        .footer {
+            padding: 15px;
+            background: #e8f5e9;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="header">
+            <div class="avatar-placeholder">👦🏻</div>
+            <h1>เด็กชายไตรปิฎก แก้วดอกรัก</h1>
+            <p>ชื่อเล่น: น้องปิ่นโต</p>
+        </div>
+
+        <div class="content">
+            <div class="info-box">
+                <div class="info-item">
+                    <span class="info-label">วันเกิด :</span>
+                    <span class="info-value">3 สิงหาคม พ.ศ. 2554</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">อาหารที่ชอบ :</span>
+                    <span class="info-value">ทุเรียน 🍈</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">สีที่ชอบ :</span>
+                    <span class="info-value" style="color: #2e7d32; font-weight: bold;">สีเขียว 🟢</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            ยินดีที่ได้รู้จักครับ! 😊
+        </div>
+    </div>
+
+</body>
+</html>
